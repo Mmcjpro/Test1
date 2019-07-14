@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathImpostActivity"
+    android:background="#801F03">
+
+    <EditText
+        android:id="@+id/editTextImpost1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginBottom="476dp"
+        android:hint="@string/number1"
+        android:textAlignment="center"
+        android:background="@drawable/round_edittext_impost"
+        android:inputType="number"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/editTextImpost3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="175dp"
+        android:textAlignment="center"
+        android:background="@drawable/round_edittext_impost"
+        android:layout_marginBottom="546dp"
+        android:hint="@string/number2"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/editTextImpost4"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="546dp"
+        android:hint="@string/number3"
+        android:textAlignment="center"
+        android:background="@drawable/round_edittext_impost"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextImpost3"
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+
+    <EditText
+        android:id="@+id/editTextImpost6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginStart="175dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginBottom="27dp"
+        android:hint="@string/number4"
+        android:textAlignment="center"
+        android:background="@drawable/round_edittext_impost"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/editTextImpost3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/editTextImpost7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="27dp"
+        android:hint="@string/number5"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:background="@drawable/round_edittext_impost"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/editTextImpost4"
+        app:layout_constraintStart_toEndOf="@+id/editTextImpost6"
+        android:autofillHints="" tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/editTextImpostYourNumber"
+        android:layout_width="0dp"
+        android:background="@drawable/round_button_activity"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="244dp"
+        android:hint="@string/emolument"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextImpost3"
+        android:importantForAutofill="no" tools:targetApi="o" />
+    <TextView
+        android:id="@+id/textViewNmberOneImpost"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextImpost1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNmberTwoImpost"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginBottom="42dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewNmberOneImpost"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="189dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="113dp" />
+
+    <Button
+        android:id="@+id/buttonStartImpost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/impost_button"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/run"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextImpostYourNumber" />
+
+    <TextView
+        android:id="@+id/textViewImpostOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStartImpost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextImpostYourNumber" />
+    <!--
+    <EditText
+        android:id="@+id/editTextImpost5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="numberjj"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="68dp" />
+    -->
+
+</android.support.constraint.ConstraintLayout>

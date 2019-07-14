@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Num Machine</string>
+    <string name="num_machine">Num Machine</string>
+    <string name="physic">Physic</string>
+    <string name="math">Math</string>
+    <string name="Prime_Number">Button</string>
+    <string name="prime_number">Prime NUmber</string>
+    <string name="impost">Impost</string>
+    <string name="factoriel">factoriel</string>
+    <string name="xy">XY</string>
+    <string name="your_number">your Number</string>
+    <string name="start">Start</string>
+    <string name="number4">number4</string>
+    <string name="number5">number5</string>
+    <string name="number3">number3</string>
+    <string name="number1">number1</string>
+    <string name="number2">number2</string>
+    <string name="emolument">Emolument</string>
+    <string name="start1">Start</string>
+    <string name="run">Run</string>
+    <string name="start3">Start</string>
+    <string name="start2">Start</string>
+    <string name="velocity">Velocity</string>
+    <string name="force">Force</string>
+    <string name="starter">Start</string>
+    <string name="m">m</string>
+    <string name="a">a</string>
+    <string name="t">T</string>
+    <string name="x">X</string>
+    <string name="starter2">Start</string>
+    <string name="physicsStartActivity">Physics</string>
+    <string name="mathStartActivity">Math</string>
+    <string name="sin">Sin ()</string>
+    <string name="start134434455745687">Start</string>
+    <string name="your_number29876">Your Number</string>
+    <string name="q">Q</string>
+    <string name="m45678">M</string>
+    <string name="cojffdfo">C</string>
+    <string name="teta_1">Teta 1</string>
+    <string name="teta2">teta2</string>
+    <string name="teta_2erkdtyio8">teta 2</string>
+    <string name="sifihgkihf">Start</string>
+    <string name="egefk8">teta 2</string>
+    <string name="your_numbert99ytit3wtpy">your Number</string>
+    <string name="startfdfjdfjifthisiogrhdogfi">Start</string>
+    <string name="scientific_symbol">Scientific symbol</string>
+    <string name="apoiuytrds">a</string>
+    <string name="bcrghgjddyuj">b</string>
+    <string name="dgkdmlir33">Start</string>
+    <string name="a_2_b_2_c_2">a^2 + b^2 = c^2</string>
+    <string name="m1sjifkhhikglw">M1</string>
+    <string name="m2cdfnrfthr">M2</string>
+    <string name="dfkddhdkr">R</string>
+    <string name="startGdkjfhdhdflkvdkifdhglt">Start</string>
+    <string name="g_6_67_10_11">G = 6.67 * 10 ^ -11</string>
+    <string name="gravity">Gravity</string>
+    <string name="rdkffggfgd">R</string>
+    <string name="ihjok">I</string>
+    <string name="iijjp">I</string>
+    <string name="tygjkji">T</string>
+    <string name="start687iyui">Start</string>
+    <string name="q_r_i_2_t">Q = R.I^2.T</string>
+    <string name="jhbjhg">M</string>
+    <string name="jyguhjuhkl">G</string>
+    <string name="bhhhbk">H</string>
+    <string name="sdfghjuiol">Start</string>
+    <string name="u_mgh">U=mgh</string>
+    <string name="rfghjk">R</string>
+    <string name="iyhujio">I</string>
+    <string name="tgyj">T</string>
+</resources>

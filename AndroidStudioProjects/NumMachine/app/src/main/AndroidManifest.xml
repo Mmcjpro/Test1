@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nummachine">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sum"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/sum"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PhysicUActivity"></activity>
+        <activity android:name=".PhysicQ2Activity" />
+        <activity android:name=".PhysicGActivity" />
+        <activity android:name=".MathABCActivity" />
+        <activity android:name=".MathScientificSymbol" />
+        <activity android:name=".PhysicQActivity" />
+        <activity android:name=".PhysicForceActivity" />
+        <activity android:name=".PhysicVelocityActivity" />
+        <activity android:name=".MathFactorielActivity" />
+        <activity android:name=".MathXyActivity" />
+        <activity android:name=".MathImpostActivity" />
+        <activity android:name=".MathPrimeActivity" />
+        <activity android:name=".PhysicActivity" />
+        <activity android:name=".MathActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
